@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1066785720585",
+    "project_id": "greed-app-514fc",
+    "storage_bucket": "greed-app-514fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066785720585:android:326e7a06f0873e59e1ebd8",
+        "android_client_info": {
+          "package_name": "com.example.greedapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066785720585-de4vkv9eftfk587ulg58grurjspkrnub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.greedapp",
+            "certificate_hash": "c5f34b326bac2e47d027b879e235fc9fc486089c"
+          }
+        },
+        {
+          "client_id": "1066785720585-91mmf0mflqloiq4538l5bkvd0ccsdgtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGLlx8L7vmvauObptUCze_Rrn8bXr8LHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066785720585-91mmf0mflqloiq4538l5bkvd0ccsdgtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

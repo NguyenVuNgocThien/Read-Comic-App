@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/newbg"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to GreedApp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="UserName:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+/>
+        <EditText
+            android:id="@+id/edUser"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:layout_marginRight="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="PassWord:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/edPass"
+            android:password="true"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:layout_marginRight="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+<Button
+    android:backgroundTint="@color/design_default_color_secondary"
+    android:id="@+id/btLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Log in"
+    />
+    <Button
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:id="@+id/btRegFromLoginSite"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+
+    >
+<!--    <com.google.android.gms.common.SignInButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        />-->
+    <com.google.android.material.imageview.ShapeableImageView
+
+        android:layout_marginTop="5dp"
+        android:id="@+id/fblogin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/com_facebook_favicon_blue"
+        app:shapeAppearanceOverlay="@style/Circular"/>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/gglogin"
+        android:layout_marginLeft="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/common_google_signin_btn_icon_light_normal"
+        app:shapeAppearanceOverlay="@style/Circular"/>
+
+</LinearLayout>
+</LinearLayout>
